@@ -250,10 +250,15 @@ header i
   }
 
   .contenup1:hover
-  {
-      cursor: pointer;
-      transform: scale(1.012);
-  }
+{
+    cursor: pointer;
+    transform: scale(1.012);
+}
+
+.contenup1:hover .menu p
+{
+    white-space: nowrap;
+}
 
 .contenup1:hover .validation
 {
@@ -293,7 +298,6 @@ header i
 
 .menu p
 {
-    white-space: nowrap;
     font-size: 17px;
     margin-top: -5px;
     overflow: hidden;
@@ -321,6 +325,7 @@ header i
 {
     margin-right: 3%;
 }
+
 .validation
 {   
     display: none;

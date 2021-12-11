@@ -246,6 +246,10 @@ header i {
           transform: scale(1.012);
 }
 
+.contenup1:hover .menu p {
+  white-space: nowrap;
+}
+
 .contenup1:hover .validation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -290,7 +294,6 @@ header i {
 }
 
 .menu p {
-  white-space: nowrap;
   font-size: 17px;
   margin-top: -5px;
   overflow: hidden;

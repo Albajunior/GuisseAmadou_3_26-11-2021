@@ -525,7 +525,7 @@ footer i {
   }
 }
 
-@media screen and (max-width: 352px) {
+@media only screen and (max-width: 352px) {
   .presentaion h3 {
     min-width: 246px;
   }
