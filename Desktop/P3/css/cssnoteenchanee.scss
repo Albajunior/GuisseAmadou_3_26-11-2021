@@ -72,12 +72,14 @@ header i
     font-size: 26px;
     font-weight: bold;   
 }
+
 .titrep3 i
 {
     margin-right: 10%;
     font-size: 29px;
     margin-top: 13px;
 }
+
 .partie3
 {
     background-color: #F2F2F2;
@@ -89,11 +91,6 @@ header i
     border-top-right-radius: 60px;
     position: relative;
     max-width: 1250px;
-}
-
-.titrep3
-{
-    
 }
 
 .entree 
@@ -124,7 +121,7 @@ header i
     position: absolute;
     z-index: 20;
     left: 5%;
-    top: 419px;
+    top: 506px;
 }
 
 .entree3::after
@@ -191,6 +188,12 @@ header i
 {
     -webkit-animation-delay: 0.9s;
     animation-delay: 0.9s;
+} 
+
+.case9
+{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
 } 
 
 .contenup1

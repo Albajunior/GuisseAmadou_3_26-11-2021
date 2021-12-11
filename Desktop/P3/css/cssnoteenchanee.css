@@ -114,7 +114,7 @@ header i {
   position: absolute;
   z-index: 20;
   left: 5%;
-  top: 419px;
+  top: 506px;
 }
 
 .entree3::after {
@@ -171,6 +171,11 @@ header i {
 .case9 {
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s;
+}
+
+.case9 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .contenup1 {
@@ -595,4 +600,4 @@ footer i {
   -webkit-animation: opacity 1s both;
   animation: opacity 1s both;
 }
-/*# sourceMappingURL=cssresto1.css.map */
+/*# sourceMappingURL=cssnoteenchanee.css.map */

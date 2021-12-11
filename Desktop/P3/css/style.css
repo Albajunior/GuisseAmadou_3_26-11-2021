@@ -5,7 +5,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  min-width: 300px;
+  min-width: 370px;
 }
 
 @-webkit-keyframes spinner {
@@ -149,6 +149,9 @@ body {
           justify-content: center;
   height: 45px;
   margin-top: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contenu {
@@ -164,8 +167,14 @@ body {
 }
 
 .contenu i {
-  margin-top: 16px;
   margin-right: 25px;
+}
+
+input {
+  background-color: #e1e1df;
+  border-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
 
 .contenu2 {
@@ -469,7 +478,16 @@ footer i {
   margin-right: 8px;
 }
 
+@media all and (max-width: 600px) {
+  .contenu {
+    margin-left: 40%;
+  }
+}
+
 @media all and (min-width: 600px) {
+  .contenu {
+    margin-left: 32%;
+  }
   .contenup1 button {
     margin-left: 70%;
   }
@@ -606,6 +624,12 @@ footer i {
   }
   .contact {
     margin-top: 27px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .contenu {
+    margin-left: 30%;
   }
 }
 /*# sourceMappingURL=style.css.map */
