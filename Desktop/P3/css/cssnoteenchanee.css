@@ -63,6 +63,8 @@ header i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-right: 6%;
+  margin-left: 1%;
 }
 
 .titrep3 h1 {
