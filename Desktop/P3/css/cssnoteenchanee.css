@@ -12,6 +12,7 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   min-width: 370px;
+  max-width: 1530px;
 }
 
 header i {
@@ -47,10 +48,12 @@ header i {
 }
 
 .imagemenu img {
-  height: 290px;
+  max-height: 670px;
   width: 100%;
   margin-top: 5px;
   margin-bottom: -100px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .titrep3 {
@@ -69,10 +72,36 @@ header i {
   font-weight: bold;
 }
 
-.titrep3 i {
-  margin-right: 10%;
-  font-size: 29px;
-  margin-top: 13px;
+.etoile {
+  margin-top: 12px;
+}
+
+.et1 i {
+  color: black;
+  margin-top: 7px;
+  font-size: 28px;
+}
+
+.et1 i:hover {
+  color: transparent;
+}
+
+.et2 {
+  color: transparent;
+  margin-top: -32.5px;
+  font-size: 31px;
+  margin-left: -1.4px;
+}
+
+.et2:hover .et1 i {
+  display: none;
+}
+
+.et2:hover {
+  color: #9356DC;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .partie3 {
@@ -479,10 +508,10 @@ footer i {
 
 @media all and (min-width: 1200px) {
   .menu h4 {
-    max-width: none;
+    max-width: 170px;
   }
   .menu p {
-    max-width: none;
+    font-size: 15px;
   }
 }
 
@@ -501,6 +530,16 @@ footer i {
 @media all and (max-width: 420px) {
   .menu h4 {
     max-width: 210px;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  body {
+    width: 70%;
+    margin-left: 15%;
+  }
+  header i {
+    margin-left: 15%;
   }
 }
 
