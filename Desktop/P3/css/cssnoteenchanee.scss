@@ -109,7 +109,7 @@ header i
 {
     color: #9356DC; 
     cursor: pointer;  
-    transition: 0.3s;          
+    transition: 0.4s;          
 }
 
 .partie3
@@ -279,11 +279,6 @@ header i
     margin-top: 30px;
     margin-left: 3%;
     width: 70%;
-}
-
-.menu b
-{
-   font-size: 17px;
 }
 
 .menu p
@@ -504,7 +499,7 @@ footer i
 
     .menu p
     {
-        max-width: 161px;
+        max-width: 170px;
     }
 
     .contenup1:hover .validation 
@@ -600,13 +595,13 @@ footer i
 {
     body
     {
-        width: 70%;
-        margin-left: 15%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     header i 
     {
-        margin-left: 15%;
+        margin-left: 10%;
     }
 
 }
