@@ -431,7 +431,7 @@ input
 {
     color: #9356DC; 
     cursor: pointer;  
-    transition: 0.3s;          
+    transition: 0.4s;          
 }
 
 footer
@@ -533,6 +533,20 @@ footer i
         margin-right: 45px;
     }
 }
+
+@media all and (min-width: 700px)
+{
+    .filter p {
+        font-size: 12px;
+        }
+} 
+
+@media all and (min-width: 750px)
+{
+    .filter p {
+        font-size: 14px;
+        }
+} 
 
 @media all and (min-width: 700px)
 {
